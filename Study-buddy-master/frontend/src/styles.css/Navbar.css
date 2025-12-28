@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #00a693;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Space between title and links */
+    align-items: center; /* Vertically align the items */
+  }
+  
+  .titleName {
+    color: white;
+    font-size: 24px; /* Adjust size for a more prominent title */
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px; /* Space between links */
+    padding: 5px 10px; /* Add padding for better clickability */
+  }
+  
+  .navbar-link:hover {
+    color: #ddd;
+    background-color: #007e66; /* Slightly darker background on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+  }
+  

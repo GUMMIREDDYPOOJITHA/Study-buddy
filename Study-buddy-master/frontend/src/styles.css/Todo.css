@@ -1,0 +1,27 @@
+/* CSS */
+.todo {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Spread out the items */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 300px;
+
+  }
+  
+  .todo p {
+    margin: 0; /* Remove margin from the paragraph to align properly */
+    flex-grow: 1; /* Allow the task text to take available space */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+  }
+  
+  .edit-icon, .delete-icon {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  

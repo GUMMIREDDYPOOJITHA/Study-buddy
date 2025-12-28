@@ -1,0 +1,15 @@
+/* styles.css */
+.wrapper {
+    
+    background-color:transparent; 
+    background-repeat: no-repeat;
+    padding: 20px; 
+    box-sizing: border-box; 
+    transition: height 0.3s ease;
+    width:500px ;
+   
+    
+}
+.right-column h2{
+  color: white;
+}
